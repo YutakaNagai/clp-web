@@ -35,7 +35,9 @@ const count = ref(0);
             <a class="nav-link active" aria-current="page" href="#">トップ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">店舗概要</a>
+            <router-link class="nav-link" :to="{ path: '/about' }"
+              >店舗概要</router-link
+            >
           </li>
           <li class="nav-item dropdown">
             <a

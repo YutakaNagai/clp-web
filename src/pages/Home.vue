@@ -1,11 +1,11 @@
 <script setup>
 import { ref } from "vue";
-import Header from "./components/Header.vue";
-import Card from "./components/Card.vue";
-import CardLarge from "./components/CardLarge.vue";
-import StoreInfo from "./components/StoreInfo.vue";
-import Contact from "./components/Contact.vue";
-import Footer from "./components/Footer.vue";
+import Header from "../components/Header.vue";
+import Card from "../components/Card.vue";
+import CardLarge from "../components/CardLarge.vue";
+import StoreInfo from "../components/StoreInfo.vue";
+import Contact from "../components/Contact.vue";
+import Footer from "../components/Footer.vue";
 
 const card = ref({
   car: {
@@ -59,8 +59,7 @@ const newsList = [
 </script>
 
 <template>
-  <div>aaaaaaa</div>
-  <!-- <div style="width: 100%">
+  <div style="width: 100%">
     <div class="bg">
       <div
         style="
@@ -77,6 +76,7 @@ const newsList = [
           車の内装クリーニングは<br />クリーンプラスに<br />おまかせください！
         </h1>
       </div>
+      <!-- メインコンテンツ -->
       <div style="background-color: white">
         <div style="height: 100px"></div>
         <div class="news">
@@ -92,6 +92,7 @@ const newsList = [
         </div>
 
         <div style="height: 100px"></div>
+        <!-- TODO: とりあえずCSSでどうにかするが、背景画像を用意したい -->
         <section class="about">
           <h2>
             快適な暮らしをご提供する<br />
@@ -132,7 +133,7 @@ const newsList = [
         <Footer />
       </div>
     </div>
-  </div> -->
+  </div>
 </template>
 
 <style scoped>
