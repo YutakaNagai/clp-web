@@ -32,27 +32,40 @@ const count = ref(0);
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">トップ</a>
+            <router-link class="nav-link" :to="{ path: '/' }"
+              >トップ</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link class="nav-link" :to="{ path: '/about' }"
               >店舗概要</router-link
             >
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              事業紹介
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">サービス一覧</a></li>
-              <li><a class="dropdown-item" href="#">ご利用の流れ</a></li>
-            </ul>
+          <li>
+            <div class="nav-item dropdown">
+              <a
+                type="button"
+                id="dropdown"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                事業紹介
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown">
+                <li class="dropdown-item">
+                  <router-link class="nav-link" :to="{ path: '/service' }"
+                    >サービス一覧</router-link
+                  >
+                </li>
+                <li class="dropdown-item">
+                  <router-link class="nav-link" :to="{ path: '/guide' }"
+                    >ご利用の流れ</router-link
+                  >
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">検索</a>
