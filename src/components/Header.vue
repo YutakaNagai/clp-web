@@ -55,7 +55,9 @@ const count = ref(0);
               </a>
               <ul class="dropdown-menu" aria-labelledby="dropdown">
                 <li class="dropdown-item">
-                  <router-link class="nav-link" :to="{ path: '/service' }"
+                  <router-link
+                    class="nav-link"
+                    :to="{ path: '/service', hash: '#service' }"
                     >サービス一覧</router-link
                   >
                 </li>
