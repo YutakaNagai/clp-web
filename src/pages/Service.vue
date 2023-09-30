@@ -177,6 +177,166 @@ import Footer from "../components/Footer.vue";
               </div>
             </div>
           </div>
+
+          <div id="exterior" class="service_card_wrapper">
+            <div class="service_card">
+              <h3>草取り・草刈り・除草剤の散布</h3>
+              <hr class="service_card_hr" />
+              <p>
+                草が繁茂すると美観を損ねるだけでなく、周辺環境への影響も考慮しなければなりません。草取りサービスでは、プロのスタッフが丁寧に作業し、お庭や敷地内の草や雑草を根こそぎ取り除きます。
+              </p>
+              <p>
+                また敷地が広い場合、雑草対策には、草刈りよりも除草剤を撒くことをおすすめします。草刈り・草取りに比べて作業時間が少なくできるため、費用を抑えることも可能です。
+              </p>
+              <div class="service_card_left"></div>
+              <div class="service_card_right">
+                <h4>草取り（手作業）</h4>
+                <p>カマを使い草を手作業で取ります。</p>
+                <p>
+                  草の根から抜き取るため、再度雑草が生えてくるまでの時間が長くなります。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--tax">1㎡あたり</span
+                  ><span class="service_card_value--amount">¥1,100</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>草刈り（草刈り機）</h4>
+                <p>
+                  草刈り機が入れる広さ、砂利が敷いていない場所等では、草刈りをおすすめします。広い敷地でも、時間をあまりかけずに、綺麗にする事が出来ます。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--tax">1㎡あたり</span
+                  ><span class="service_card_value--amount">¥1,100</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>除草剤の散布</h4>
+                <p>
+                  除草剤を散布すると、今生えている雑草だけでなく飛来してくる雑草の種も発芽しないように処理することができます。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--tax">1㎡あたり</span
+                  ><span class="service_card_value--amount">¥1,100</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="gutter" class="service_card_wrapper">
+            <div class="service_card">
+              <h3>側溝掃除・網戸の張替え</h3>
+              <hr class="service_card_hr" />
+              <div class="service_card_left"></div>
+              <div class="service_card_right">
+                <h4>側溝掃除</h4>
+                <p>
+                  側溝のふたを上げる作業は女性や高齢者にとって大変重労働です。当店はそのような側溝掃除のお手伝いをさせていただきます。
+                </p>
+                <p>なお、一人暮らしやお時間のない方からのご用命も承ります。</p>
+                <p class="service_card_value">
+                  <span class="service_card_value--tax">およそ10m</span
+                  ><span class="service_card_value--amount">¥19,800</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>網戸の張替え</h4>
+                <p>小さな穴は気づかないうちに大きく開いてしまいます。</p>
+                <p>はやめの交換で虫の侵入を防ぎませんか？</p>
+                <p class="service_card_value">
+                  <span class="service_card_value--tax">高さ90㎝×幅90㎝</span
+                  ><span class="service_card_value--amount">¥3,300</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <div class="service_card_note">
+                  <p>※網戸の種類により変わります。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="shoveling" class="service_card_wrapper">
+            <div class="service_card">
+              <h3>雪かき</h3>
+              <hr class="service_card_hr" />
+              <div class="service_card_left"></div>
+              <div class="service_card_right">
+                <p>
+                  雪かきはどの家庭にとっても大変な作業です。時間に余裕の無い方、肉体労働が負担となる女性や高齢者の方など、自分で除雪をすることが困難な方にとって生活に大きな支障となる雪かき作業を、当店が承ります。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--tax">30分あたり</span
+                  ><span class="service_card_value--amount">¥3,300</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="indoor" class="service_card_wrapper">
+            <div class="service_card">
+              <h3>住宅・店舗等の室内清掃・片付け</h3>
+              <hr class="service_card_hr" />
+              <p>
+                ハウスクリーニング業者が使用する強力な溶剤は人体やペットに悪影響を及ぼします。
+              </p>
+              <p>
+                当店はそのような強力な溶剤を使用せず、当店オリジナルのクリーナーを使い安全に配慮したスピーディな清掃を行います。
+              </p>
+              <div class="service_card_left"></div>
+              <div class="service_card_right">
+                <h4>浴室</h4>
+                <p>
+                  湿気によるカビや水アカ、皮脂汚れ、石鹸カスなど、それぞれの汚れに合った洗剤を使用しお掃除します。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--amount">¥5,500</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>トイレ</h4>
+                <p>
+                  日頃のお掃除では落としきれない汚れ・カビ・黄ばみをキレイに洗浄し、除菌仕上げを行います。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--amount">¥5,500</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>洗面台</h4>
+                <p>
+                  蛇口や細かな汚れやカビ・水アカ汚れなど、汚れの種類に適した洗剤を使用して、洗面器から鏡、蛇口までしっかりキレイにします。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--amount">¥5,500</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>窓ガラス・サッシ・網戸の掃除</h4>
+                <p>
+                  砂埃、粉塵、タバコのヤニ等の汚れをプロの技術で美しく透明に磨き上げます。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--amount">¥5,500～</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>床・フローリングの掃除</h4>
+                <p>
+                  普段の掃除では取り切れない溜まってしまった床の汚れを、専用クリーナーでしっかり落とし、綺麗に仕上げます。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--amount">¥5,500～</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>カーペットやソファーの汚れ取り</h4>
+                <p>
+                  専用の機材、クリーナーを使用しシミ汚れや皮脂油、匂いを落とします。
+                </p>
+                <p class="service_card_value">
+                  <span class="service_card_value--amount">¥5,500</span
+                  ><span class="service_card_value--tax">(税込)</span>
+                </p>
+                <h4>住宅や事務所の片付け</h4>
+                <p>お時間や内容により料金は変わります。</p>
+                <p>お気軽にご相談ください</p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <Contact />
